@@ -1,0 +1,61 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.book-card {
+    background-color:white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 350px;
+    padding: 16px;
+    margin: 16px; /* Add margin for better spacing */
+}
+
+.available-book-card {
+    background-color:white;
+    border-radius: 8px;
+    /*box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);*/
+    width: 300px;
+    padding: 16px;
+    margin: 16px;
+    margin-left:40%;
+    padding-top:40px;
+    background-color: aqua;
+    height:120px;
+}
+
+.header-container-card{
+    background-color:white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 100%;
+    padding: 16px;
+    margin: 16px;
+    background-color: orange;
+    margin-top:0%;
+    margin-left:0%;
+    margin-right:0%;
+}
+.book-title {
+    font-size: 1.5rem; /* Use rem units for better responsiveness */
+    font-weight: bold;
+    margin: 0;
+    color: #333; /* Darken the text color for better readability */
+}
+
+.book-author {
+    font-size: 1rem; /* Adjust font size */
+    color: #555;
+}
+
+.book-year {
+    font-size: 1rem; /* Adjust font size */
+    color: #555;
+}
